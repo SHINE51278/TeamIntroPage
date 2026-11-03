@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #172554;
+            color: white;
+            padding: 30px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .team-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            padding: 40px 20px;
+        }
+
+        .team-card {
+            background: white;
+            width: 250px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .team-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .team-card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .team-card h2 {
+            color: #172554;
+            font-size: 22px;
+        }
+
+        .role {
+            color: #2563eb;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #172554;
+            color: white;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Meet Our Team</h1>
+        <p>United by Passion, Driven by Innovation</p>
+    </header>
+
+    <section class="team-container">
+
+        <div class="team-card">
+            <img src="https://placehold.co/120x120" alt="Team Leader">
+            <h2>Shine Babu</h2>
+            <p class="role">Team Leader</p>
+            <p>Leading the team with creativity and technical knowledge.</p>
+        </div>
+
+        <div class="team-card">
+            <img src="https://placehold.co/120x120" alt="Developer">
+            <h2>Rahul</h2>
+            <p class="role">Frontend Developer</p>
+            <p>Designing attractive and responsive user interfaces.</p>
+        </div>
+
+        <div class="team-card">
+            <img src="https://placehold.co/120x120" alt="Backend Developer">
+            <h2>Priya</h2>
+            <p class="role">Backend Developer</p>
+            <p>Building reliable server-side applications and APIs.</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Our Team. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
